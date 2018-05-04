@@ -1,0 +1,65 @@
+---
+layout: default
+---
+        <!-- BREADCRUMBS AREA START -->
+        <div class="breadcrumbs-area bread-bg-1 bg-opacity-black-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="breadcrumbs">
+                            <h2 class="breadcrumbs-title">Blog</h2>
+                            <ul class="breadcrumbs-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BREADCRUMBS AREA END -->
+
+        <!-- Start page content -->
+        <div id="page-content" class="page-wrapper">
+
+            <!-- BLOG AREA START -->
+            <div class="blog-area pt-115 pb-60">
+                <div class="container">
+                    <div class="row">
+                        {% for item in site.posts %}
+                        <!-- blog-item -->
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <article class="blog-item bg-gray">
+                                    <div class="blog-image">
+                                        <a href="{{item.url}}"><img src="{{site.url}}{{item.image}}" alt=""></a>
+                                    </div>
+                                    <div class="blog-info">
+                                        <div class="post-title-time">
+                                            <h5><a href="{{item.url}}">{{item.title}}</a></h5>
+                                            <p>{{item.date | date_to_long_string}}</p>
+                                        </div>
+                                        <p>{{ item.content | strip_html | truncatewords: 40 }}</p>
+                                        <a class="read-more" href="{{item.url}}">Read more</a>
+                                    </div>
+                            </article>
+                        </div>
+                        {% endfor %}
+                       <!-- pagination-area -->
+                        <div class="col-xs-12">
+                            <div class="pagination-area mb-60">
+                                <ul class="pagination-list text-center">
+                                    <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOG AREA END -->
+            
+            
+        </div>
+        <!-- End page content -->

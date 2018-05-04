@@ -1,0 +1,163 @@
+---
+layout: default
+---
+<!-- BREADCRUMBS AREA START -->
+<div class="breadcrumbs-area bread-bg-1 bg-opacity-black-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="breadcrumbs">
+                    <h2 class="breadcrumbs-title">{{page.title}}</h2>
+                    <ul class="breadcrumbs-list">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="properties.html">Properties</a>
+                        </li>
+                        <li>Properties Details</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BREADCRUMBS AREA END -->
+
+<!-- Start page content -->
+<section id="page-content" class="page-wrapper">
+
+    <!-- PROPERTIES DETAILS AREA START -->
+    <div class="properties-details-area pt-115 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- pro-details-image -->
+                    <div class="pro-details-image mb-60">
+                        <div class="pro-details-big-image">
+                            <div class="tab-content">
+                                {% for item in page.gallery %}
+                                <div role="tabpanel" class="tab-pane fade in {% if {{forloop.index0}} == 0 %} active{% endif %}" id="pro-{{forloop.index0 | plus: 1}}">
+                                    <a href="{{site.url}}{{item.img}}" data-lightbox="image-1" data-title="Sheltek Properties - {{forloop.index0 | plus: 1}}">
+                                        <img src="{{site.url}}{{item.img}}" alt="">
+                                    </a>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="pro-details-carousel">
+                            {% for item in page.gallery %}
+                            <div class="pro-details-item">
+                                <a href="#pro-{{forloop.index0 | plus: 1}}" data-toggle="tab">
+                                    <img src="{{site.url}}{{item.img}}" alt="">
+                                </a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <!-- pro-details-short-info -->
+                    <div class="pro-details-short-info mb-60">
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="pro-details-condition">
+                                    <h5>Condition</h5>
+                                    <div class="pro-details-condition-inner bg-gray">
+                                        <ul class="condition-list">
+                                            <li>
+                                                <img src="images/icons/5.png" alt="">Area 450 sqft</li>
+                                            <li>
+                                                <img src="images/icons/6.png" alt="">Bedroom 5</li>
+                                            <li>
+                                                <img src="images/icons/7.png" alt="">Bathroom 3</li>
+                                            <li>
+                                                <img src="images/icons/13.png" alt="">Garage 2</li>
+                                            <li>
+                                                <img src="images/icons/14.png" alt="">Kitchen 2</li>
+                                            <li>$52,350</li>
+                                        </ul>
+                                        <p>
+                                            <img src="images/icons/location.png" alt="">568 E 1st Ave, Ney Jersey, USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="pro-details-amenities">
+                                    <h5>Amenities</h5>
+                                    <div class="pro-details-amenities-inner bg-gray">
+                                        <ul class="amenities-list">
+                                            <li>Air Conditioning</li>
+                                            <li>Bedding</li>
+                                            <li>Balcony</li>
+                                            <li>Cable TV</li>
+                                            <li>Internet</li>
+                                            <li>Parking</li>
+                                            <li>Lift</li>
+                                            <li>Pool</li>
+                                            <li>Dishwasher</li>
+                                            <li>Toaster</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pro-details-description -->
+                    <div class="pro-details-description mb-50">
+                        <p>{{page.description}}</p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4">
+                    <!-- widget-featured-property -->
+                    <aside class="widget widget-featured-property">
+                        <h5>Featured Properties</h5>
+                        <div class="row">
+                            <!-- flat-item -->
+                            {% for item in site.properties | limit: 6 %}
+                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                <div class="flat-item">
+                                    <div class="flat-item-image">
+                                        <span class="for-sale">For Sale</span>
+                                        <a href="{{item.url}}">
+                                            <img src="{{site.url}}{{item.main-image}}" alt="">
+                                        </a>
+                                        <div class="flat-link">
+                                            <a href="{{item.url}}">More Details</a>
+                                        </div>
+                                        <ul class="flat-desc">
+                                            <li>
+                                                <img src="{{site.url}}/images/icons/4.png" alt="">
+                                                <span>{{item.squarefeet}} sqft</span>
+                                            </li>
+                                            <li>
+                                                <img src="{{site.url}}/images/icons/5.png" alt="">
+                                                <span>{{item.bedrooms}}</span>
+                                            </li>
+                                            <li>
+                                                <img src="{{site.url}}/images/icons/6.png" alt="">
+                                                <span>{{item.bathrooms}}</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="flat-item-info">
+                                        <div class="flat-title-price">
+                                            <h5>
+                                                <a href="#">{{item.title}}</a>
+                                            </h5>
+                                            <!-- <span class="price">$52,350</span> -->
+                                        </div>
+                                        <p>
+                                            <img src="{{site.url}}/images/icons/location.png" alt="">{{item.location}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PROPERTIES DETAILS AREA END -->

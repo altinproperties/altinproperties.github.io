@@ -1,0 +1,145 @@
+---
+layout: default
+---
+        <!-- BREADCRUMBS AREA START -->
+        <div class="breadcrumbs-area bread-bg-1 bg-opacity-black-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="breadcrumbs">
+                            <h2 class="breadcrumbs-title">{{page.title}}</h2>
+                            <ul class="breadcrumbs-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li>Blog Details</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BREADCRUMBS AREA END -->
+
+        <!-- Start page content -->
+        <section id="page-content" class="page-wrapper">
+
+            <!-- BLOG AREA START -->
+            <div class="blog-area pt-115 pb-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-xs-12">
+                            <div class="blog-details-area">
+                                <!-- blog-details-image -->
+                                <div class="blog-details-image">
+                                    <img src="images/blog/blog-details.jpg" alt="">
+                                </div>
+                                <!-- blog-details-title-time -->
+                                <div class="blog-details-title-time">
+                                    <h5>New Building design</h5>
+                                    <p>{{page.date | date_to_long_string}}</p>
+                                </div>
+                                <!-- blog-details-desctiption -->
+                                <div class="blog-details-desctiption mb-60">
+                                    <p>{{page.content}}</p>
+                                </div>
+                                <!-- blog-details-share-tags -->
+                                <div class="blog-details-share-tags clearfix mb-75">
+                                    <div class="blog-details-tags f-left">
+                                        <ul>
+                                            <li>Tags :</li>
+                                            {% for item in page.tags %}
+                                            <li><a href="#">{{tag}}{% unless forloop.last %},{% endunless %}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    <div class="blog-details-share f-right">
+                                        <ul class="social-media">
+                                            <li>Share:</li>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div> 
+                                <!-- blog-details-author-post -->
+                                <div class="blog-details-author-post clearfix line-bottom pb-30 mb-115">
+                                    <div class="blog-details-author-image">
+                                        <a href="{{site.url}}"><img src="{{site.url}}/images/logo/logo.png" alt=""></a>
+                                    </div>
+                                    <div class="blog-details-author-desc">
+                                        <div class="blog-details-author-name">
+                                            <h6><a href="{{site.url}}">Altin Properties</a></h6>
+                                            <p class="">Real Estate Builders</p>
+                                        </div>
+                                        <p>There are some business lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <!-- widget-search
+                            <aside class="widget widget-search mb-30">
+                                <form action="#">
+                                    <input type="text" name="search" placeholder="Search...">
+                                    <button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </aside>
+                            <!-- widget-categories 
+                            <aside class="widget widget-categories mb-50">
+                                <h5>Categories</h5>
+                                <ul class="widget-categories-list">
+                                    <li><a href="#">Apartment <span>1420</span></a></li>
+                                    <li><a href="#">Apartment Building <span>780</span></a></li>
+                                    <li><a href="#">Bungalow <span>670</span></a></li>
+                                    <li><a href="#">Corporate House <span>520</span></a></li>
+                                    <li><a href="#">Duplex Villa <span>350</span></a></li>
+                                </ul>
+                            </aside>
+                             widget-recent-post -->
+                            <aside class="widget widget-recent-post mb-50">
+                                <h5>Recent Post</h5>
+                                <div class="row">
+                                    {% for item in site.posts | limit: 6 %}
+                                    <!-- blog-item -->
+                                    <div class="col-md-12 col-sm-6 col-xs-12">
+                                        <article class="recent-post-item">
+                                            <div class="recent-post-image">
+                                                <a href="{{item.url}}"><img src="{{item.image}}" alt=""></a>
+                                            </div>
+                                            <div class="recent-post-info">
+                                                <div class="recent-post-title-time">
+                                                    <h5><a href="{{item.url}}">{{item.title}}</a></h5>
+                                                    <p>{{item.date | date_to_long_string %}}</p>
+                                                </div>
+                                                <p>{{item.content | | strip_html | truncatewords: 10}}</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </aside>
+                            <!-- widget-archive 
+                            <aside class="widget widget-archive mb-50">
+                                <h5>Archive</h5>
+                                <ul class="widget-archive-list">
+                                    <li><a href="#">August <span>2016</span></a></li>
+                                    <li><a href="#">June <span>2016</span> </a></li>
+                                    <li><a href="#">May <span>2016</span> </a></li>
+                                    <li><a href="#">April <span>2016</span> </a></li>
+                                    <li><a href="#">March <span>2016</span> </a></li>
+                                </ul>   
+                            </aside>
+
+                             widget-add -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOG AREA END -->
+            
+        </section>
+        <!-- End page content -->
