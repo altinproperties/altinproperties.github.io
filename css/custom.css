@@ -43,3 +43,8 @@ Note: This is the file where you can add your custom styles to change the look o
 .pagination-list > li.active  a {
     background: #95c41f;
 }
+@media (max-width: 991px){
+    .features-info{
+        margin-top: 350px;
+    }
+}

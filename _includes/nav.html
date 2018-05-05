@@ -95,33 +95,15 @@
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="service.html">Service</a>
+                                       <li><a href="properties.html">Properties</a>
                                         <ul>
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service details</a></li>
+                                                {% assign sortedVilla = site.properties | sort: 'order' %}
+                                                {% for item in sortedVilla %}
+                                                <li><a href="{{item.url}}">{{item.title}}</a></li>
+                                                {% endfor %}
                                         </ul>
                                     </li>
-                                    <li><a href="properties.html">Properties</a>
-                                        <ul>
-                                            <li><a href="properties.html">Properties</a></li>
-                                            <li><a href="properties-left-sidebar.html">Properties left sidebar</a></li>
-                                            <li><a href="properties-right-sidebar.html">Properties right sidebar</a></li>
-                                            <li><a href="properties-details.html">Properties details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="agent.html">Agent</a></li>
-                                            <li><a href="agent-details.html">Agent-details</a></li>
-                                            <li><a href="features.html">Features</a></li>
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service details</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="service.html">Gallery</a></li>
                                     <li><a href="blog.html">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Blog</a></li>
