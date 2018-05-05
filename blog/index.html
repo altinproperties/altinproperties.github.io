@@ -26,7 +26,7 @@ layout: default
             <div class="blog-area pt-115 pb-60">
                 <div class="container">
                     <div class="row">
-                        {% for item in site.posts %}
+                        {% for item in paginator.posts %}
                         <!-- blog-item -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <article class="blog-item bg-gray">
@@ -48,10 +48,21 @@ layout: default
                         <div class="col-xs-12">
                             <div class="pagination-area mb-60">
                                 <ul class="pagination-list text-center">
-                                    <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    {% if paginator.previous_page %}
+                                    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                                    {% endif %}
+                                    {% for page in (1..paginator.total_pages) %}
+                                    {% if page == paginator.page %}
+                                    <li class="active"><a href="#">{{page}}</a></li> 
+                                    {% elsif page == 1 %}
+                                    <li><a href="/blog/">{{page}}</a></li>
+                                    {% else %}
+                                    <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                                    {% endif %}
+                                    {% endfor %}
+                                    {% if paginator.next_page %}
+                                    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    {% endif %}
                                 </ul>
                             </div>
                         </div>

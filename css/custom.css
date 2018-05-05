@@ -40,3 +40,6 @@ Note: This is the file where you can add your custom styles to change the look o
 .bg-2{
     background-image: none;
 }
+.pagination-list > li.active  a {
+    background: #95c41f;
+}

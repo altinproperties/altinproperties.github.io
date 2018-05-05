@@ -20,7 +20,9 @@ keywords: "ico alert, ico analysis, ico list, list of icos, list of crypto icos,
 logo: "/images/logo.png"
 # Build settings
 markdown: kramdown
-
+paginate_path: "/blog/page:num/"
+permalink: /blog/:title
+paginate: 9
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -34,6 +36,7 @@ keep_files: [images]
 plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-paginate
 
 collections:
   properties:
