@@ -15,3 +15,26 @@ Note: This is the file where you can add your custom styles to change the look o
 .breadcrumbs-title{
     padding: 170px 0 80px;
 }
+.header-search ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-search li i {
+    font-size: 1.5rem;
+}
+.header-info h6{
+    font-size: 14px;
+}
+.footer-links a{
+    color: #fff;
+    font-weight: 200;
+    line-height: 2.5;
+}
+.footer-places li {
+    color: #fff;
+    font-weight: 200;
+    line-height: 2.4;
+}
+.bg-2{
+    background-image: none;
+}
