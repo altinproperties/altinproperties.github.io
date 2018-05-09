@@ -50,3 +50,6 @@ fields:
   label: Property Features / Facilities
   name: facilities
   description: Eg, Pool, Air Conditoning
+- type: textarea
+  name: description
+  label: Property Description
