@@ -38,8 +38,8 @@ layout: default
                             <div class="tab-content">
                                 {% for item in page.gallery %}
                                 <div role="tabpanel" class="tab-pane fade in {% if {{forloop.index0}} == 0 %} active{% endif %}" id="pro-{{forloop.index0 | plus: 1}}">
-                                    <a href="{{site.url}}{{item.img}}" data-lightbox="image-1" data-title="Sheltek Properties - {{forloop.index0 | plus: 1}}">
-                                        <img src="{{site.url}}{{item.img}}" alt="">
+                                    <a href="{{site.url}}{{item}}" data-lightbox="image-1" data-title="Sheltek Properties - {{forloop.index0 | plus: 1}}">
+                                        <img src="{{site.url}}{{item}}" alt="">
                                     </a>
                                 </div>
                                 {% endfor %}
@@ -49,7 +49,7 @@ layout: default
                             {% for item in page.gallery %}
                             <div class="pro-details-item">
                                 <a href="#pro-{{forloop.index0 | plus: 1}}" data-toggle="tab">
-                                    <img src="{{site.url}}{{item.img}}" alt="">
+                                    <img src="{{site.url}}{{item}}" alt="">
                                 </a>
                             </div>
                             {% endfor %}
