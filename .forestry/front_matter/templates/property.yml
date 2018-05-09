@@ -1,0 +1,50 @@
+---
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  config:
+    required: true
+  default: property
+- type: text
+  name: title
+  label: Villa Name
+  config:
+    required: true
+- type: number
+  name: order
+  label: Display Position Order
+  description: The Display Position At Homepage & Properties Page
+  config:
+    required: true
+- type: file
+  name: main-image
+  label: Featured Image
+- type: image_gallery
+  name: gallery
+  label: Gallery Images
+  description: 'Add Gallery Images, Floor Plans & Floor Map '
+- type: number
+  name: squarefeet
+  label: Total Square Feet
+- type: number
+  name: bedrooms
+  label: No of Bedrooms
+- type: number
+  label: No of Bathrooms
+  name: bathrooms
+- type: number
+  name: parking
+  label: No Of Parking Spaces
+- type: text
+  name: location
+  label: Property Location
+  config:
+    required: true
+- type: list
+  label: Property Features / Facilities
+  name: facilities
+  description: Eg, Pool, Air Conditoning
