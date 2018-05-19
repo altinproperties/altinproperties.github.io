@@ -14,7 +14,7 @@
   Slider-1
 ------------------------------ */
 .slider-overlay::before {
-  background: rgba(0, 0, 0, 0.75) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -58,6 +58,7 @@
 .slider-1-title-2,
 .slider-1-desc {
   color: #fff;
+  text-shadow: 0 1px black;
 }
 
 /*nivo-directionNav*/
