@@ -19,6 +19,9 @@ Note: This is the file where you can add your custom styles to change the look o
     display: flex;
     align-items: center;
 }
+.places-desc{
+    flex: 1;
+}
 .places-nearby-map{
     line-height: 2.7;
     font-weight: 600;
