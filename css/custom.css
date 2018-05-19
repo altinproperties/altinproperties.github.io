@@ -15,6 +15,14 @@ Note: This is the file where you can add your custom styles to change the look o
 .section-title-2 h2{
     font-family: "Montesserat", sans-serif;
 }
+.nearby-map{
+    display: flex;
+    align-items: center;
+}
+.places-nearby-map{
+    line-height: 2.7;
+    font-weight: 600;
+}
 .breadcrumbs-title{
     padding: 170px 0 80px;
 }
@@ -59,6 +67,13 @@ Note: This is the file where you can add your custom styles to change the look o
     }
     .logo{
         padding: 20px 0;
+    }
+    .nearby-map{
+        flex-direction: column-reverse;
+    }
+    .places-desc{
+        margin: 2rem 0 0;
+        text-align: center;
     }
    @media (max-width: 767px){
        .container{
