@@ -166,6 +166,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     display: flex;
     justify-content: space-evenly;
 }
+.header-search ul li{
+    flex-shrink: 0;
+}
 .header-search li i {
     font-size: 1.5rem;
 }
@@ -191,6 +194,24 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: #95c41f;
 }
 @media (max-width: 991px){
+    .features-info.bg-gray{
+        background: none;
+    }
+    .nearby{
+        background: #f7f7f7;
+    }
+    .testimonial-area.ptb-115{
+        padding-top: 55px;
+    }
+    .features-info{
+        padding: 60px 60px 45px !important;
+    }
+    .slides.features{
+        height: 130px;
+    }
+    .nav-dots{
+        display: none;
+    }
     .features-info{
         margin-top: 350px;
     }
