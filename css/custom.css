@@ -155,6 +155,10 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     line-height: 2.7;
     font-weight: 600;
 }
+.places-nearby-map i{
+    color: darkcyan;
+    margin-right: 1rem;
+}
 .breadcrumbs-title{
     padding: 170px 0 80px;
 }
