@@ -73,7 +73,7 @@ Slider
     display: none;
     position: absolute;
 
-	  opacity: 0;
+	opacity: 1;
     z-index: 9;
     cursor: pointer;
 
