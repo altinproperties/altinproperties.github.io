@@ -7,7 +7,7 @@ layout: default
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="breadcrumbs">
-                            <h2 class="breadcrumbs-title">{{page.title}}</h2>
+                            <h2 class="breadcrumbs-title">{{page.blogtitle}}</h2>
                             <ul class="breadcrumbs-list">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="blog.html">Blog</a></li>
@@ -35,7 +35,7 @@ layout: default
                                 </div>
                                 <!-- blog-details-title-time -->
                                 <div class="blog-details-title-time">
-                                    <h5>New Building design</h5>
+                                    <h5>{{page.blogtitle}}</h5>
                                     <p>{{page.date | date_to_long_string}}</p>
                                 </div>
                                 <!-- blog-details-desctiption -->
@@ -111,7 +111,7 @@ layout: default
                                             </div>
                                             <div class="recent-post-info">
                                                 <div class="recent-post-title-time">
-                                                    <h5><a href="{{item.url}}">{{item.title}}</a></h5>
+                                                    <h5><a href="{{item.url}}">{{item.blogtitle}}</a></h5>
                                                     <p>{{item.date | date_to_long_string %}}</p>
                                                 </div>
                                                 <p>{{item.content | | strip_html | truncatewords: 10}}</p>
