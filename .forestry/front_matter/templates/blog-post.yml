@@ -23,7 +23,7 @@ fields:
   hidden: false
   default: ''
 - type: tag_list
-  name: tags
+  name: keywords
   label: Tags
 - type: text
   name: metadesc
