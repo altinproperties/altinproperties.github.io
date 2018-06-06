@@ -1529,3 +1529,11 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+
+/* Homepage List Style */
+.home-list li{
+  list-style: square;
+}
+.home-list{
+  margin-bottom: 2rem;
+}
