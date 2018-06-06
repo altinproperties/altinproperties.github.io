@@ -23,5 +23,3 @@ fields:
     schema:
       format: markdown
     required: true
-pages:
-- _posts/2018-06-06-test-blog.md
