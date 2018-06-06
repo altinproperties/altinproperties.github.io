@@ -7,7 +7,7 @@ fields:
   type: text
   hidden: false
   default: blog
-- name: title
+- name: blogtitle
   label: Title
   type: text
   hidden: false
@@ -22,10 +22,13 @@ fields:
   type: datetime
   hidden: false
   default: ''
-- type: tag_list
-  name: keywords
-  label: Tags
+- type: text
+  name: title
+  label: SEO META  Title
 - type: text
   name: metadesc
   label: Meta Description
   description: Enter SEO Meta Description
+- type: tag_list
+  name: keywords
+  label: Tags
