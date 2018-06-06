@@ -22,5 +22,12 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: tag_list
+  name: tags
+  label: Tags
+- type: text
+  name: metadesc
+  label: Meta Description
+  description: Enter SEO Meta Description
 pages:
 - _posts/2018-06-06-test-blog.md
