@@ -49,7 +49,7 @@ jQuery(document).ready(function () {
     jQuery.cookie('visited', 'yes', {
         expires: 365 // the number of days cookie  will be effective
     });
-    jQuery("#popuplink").fancybox({modal:true, maxWidth: 600, overlay : {closeClick : true}});
+    jQuery("#popuplink").fancybox({modal:true, maxWidth: 830, overlay : {closeClick : true}});
 });
 
 (function($) {
