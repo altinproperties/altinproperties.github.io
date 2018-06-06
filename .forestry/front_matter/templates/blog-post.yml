@@ -29,5 +29,3 @@ fields:
   name: metadesc
   label: Meta Description
   description: Enter SEO Meta Description
-pages:
-- _posts/2018-06-06-test-blog.md
