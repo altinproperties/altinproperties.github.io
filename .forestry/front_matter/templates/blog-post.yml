@@ -32,5 +32,3 @@ fields:
 - type: tag_list
   name: keywords
   label: Tags
-pages:
-- blog/the-haven-peace-of-mind-for-the-home-owner.md
