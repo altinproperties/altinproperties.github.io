@@ -764,7 +764,7 @@ High demand for residential units around the project location is driven by its p
                                         </h5>
                                         <p>{{item.date | date_to_long_string}}</p>
                                     </div>
-                                    <p>{{ item.content | strip_html | truncatewords: 40 }}</p>
+                                    <p>{{ item.content | strip_html | truncate: 250 }}</p>
                                     <a class="read-more" href="{{item.url}}">Read more</a>
                                 </div>
                             </article>

@@ -626,6 +626,8 @@
     -webkit-transition: all 3.5s ease 0s;
     transition: all 3.5s ease 0s;
     width: 100%;
+    min-height: 240px;
+    object-fit: contain;
 }
 .blog-item:hover .blog-image img {
     -webkit-transform: scale(1.1);
@@ -763,8 +765,8 @@
 }
 .breadcrumbs {} .breadcrumbs-title {
     color: #fff;
-    font-size: 40px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 50px;
     margin-bottom: 0;
     padding: 230px 0 150px;
     text-align: center;
