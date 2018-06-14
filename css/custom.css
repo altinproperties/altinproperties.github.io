@@ -19,6 +19,9 @@ Note: This is the file where you can add your custom styles to change the look o
 .property-downloads a{
     color: #fff;
 }
+.pro-details-description{
+    text-align: justify;
+}
 /* 
 Slider
 */
