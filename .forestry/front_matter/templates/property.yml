@@ -48,8 +48,12 @@ fields:
   label: Property Features / Facilities
   name: facilities
   description: Eg, Pool, Air Conditoning
+- type: file
+  label: E-Brochure PDF
+  name: ebrochure
+- type: file
+  name: specpdf
+  label: Specifications PDF
 - type: textarea
   name: description
   label: Property Description
-pages:
-- _properties/villa-1.html
