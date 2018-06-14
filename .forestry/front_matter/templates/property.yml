@@ -58,6 +58,7 @@ fields:
   name: description
   label: Property Description
 pages:
+- _properties/villa-nine.html
 - _properties/villa-seven.html
 - _properties/villa-twelve.html
 - _properties/villa-eleven.html
