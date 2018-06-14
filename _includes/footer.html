@@ -48,17 +48,13 @@
                     <div class="footer-widget middle">
                         <h6 class="footer-titel">Links</h6>
                         <ul class="footer-links">
+                            {% for link in site.data.footer-links %}
                             <li>
-                                <a href="#">Properties</a>
+                                <a href="{{link.href}}">{{link.title}}</a>
                             
                             </li>
-                            <li>
-                               <a href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                        </ul>
+                            {% endfor %}
+                         </ul>
                     </div>
                 </div>
                 <!-- footer-Site Info -->
