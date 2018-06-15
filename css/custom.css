@@ -22,6 +22,20 @@ Note: This is the file where you can add your custom styles to change the look o
 .pro-details-description{
     text-align: justify;
 }
+/* Homepage About */
+.home-about-video{
+    width: 50%;
+    margin: -1rem 0rem 1rem 2rem;
+}
+.home-about-video.alt{
+    margin: -1rem 2rem 1rem 0;
+}
+.home-about-para{
+    text-align: justify;
+    font-size: 13px;
+    line-height: 20.5px;
+
+}
 /* 
 Slider
 */
