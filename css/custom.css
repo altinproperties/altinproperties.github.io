@@ -192,6 +192,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 .header-search ul li{
     flex-shrink: 0;
+    margin: 0 1rem;
 }
 .header-search li i {
     font-size: 1.5rem;
@@ -259,6 +260,17 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
    @media (max-width: 767px){
        .container{
            width: 90vw;
+       }
+       #disclaimer-text{
+           font-size: 10px !important;
+       }
+       .home-about-video{
+           width: 100%;
+           margin: 0 0 1rem;
+           float: none !important;
+       }
+       .about-sheltek-area.ptb-80{
+           padding-bottom: 0;
        }
    }
 
