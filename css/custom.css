@@ -264,6 +264,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
        #disclaimer-text{
            font-size: 10px !important;
            line-height: 16px !important;
+           padding: 10px 15px !important;
        }
        .home-about-video{
            width: 100%;
