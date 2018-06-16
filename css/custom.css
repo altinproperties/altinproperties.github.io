@@ -263,7 +263,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
        }
        #disclaimer-text{
            font-size: 10px !important;
-           line-height: 18px !important;
+           line-height: 16px !important;
        }
        .home-about-video{
            width: 100%;
@@ -285,9 +285,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 }
-@media (max-width: 380px){
+@media (max-width: 390px){
     #disclaimer-text{
-        line-height: 14px !important;
+        line-height: 13px !important;
     }
 
 
