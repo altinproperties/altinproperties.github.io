@@ -159,8 +159,8 @@ jQuery(document).ready(function () {
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow: '<i id="tst-arrow-left" class="fa fa-arrow-left"></i>',
-        prevArrow: '<i id="tst-arrow-right" class="fa fa-arrow-right"></i>'
+        nextArrow: '<i id="tst-arrow-left" class="fa fa-arrow-right"></i>',
+        prevArrow: '<i id="tst-arrow-right" class="fa fa-arrow-left"></i>'
     });
 
     /*************************

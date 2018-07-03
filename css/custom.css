@@ -16,7 +16,7 @@ Note: This is the file where you can add your custom styles to change the look o
     position: absolute;
     z-index: 99;
     bottom: 10%;
-    right: 15%;
+    right: 10%;
     font-size: 1.2rem;
     cursor: pointer;
     color: #fff;
@@ -26,7 +26,7 @@ Note: This is the file where you can add your custom styles to change the look o
 #tst-arrow-right{
     position: absolute;
     z-index: 99;
-    right: 10%;
+    right: 15%;
     bottom: 10%;
     font-size: 1.2rem;
     cursor: pointer;
