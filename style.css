@@ -71,7 +71,18 @@
 /* -----------------------------------
   8. call-to-action-area
 ----------------------------------- */
-
+#gallery-button{
+    background: seagreen;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
+    position: absolute;
+    z-index: 99;
+    top: 2rem;
+    margin-left: 1.8rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
 .call-to-bg {
     position: relative;
 }

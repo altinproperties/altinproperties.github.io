@@ -153,12 +153,14 @@ jQuery(document).ready(function () {
         9. Testimonial Carousel
     *************************/ 
     $('.testimonial-carousel').slick({
-        arrows: false,
+        arrows: true,
         dots: true,
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        nextArrow: '<i id="tst-arrow-left" class="fa fa-arrow-left"></i>',
+        prevArrow: '<i id="tst-arrow-right" class="fa fa-arrow-right"></i>'
     });
 
     /*************************

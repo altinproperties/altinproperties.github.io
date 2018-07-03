@@ -37,7 +37,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <p class="slider-1-desc">Is it just the elevation of the villa you think can be different when you compare products of different builders? Would you not look for better and efficient interior spaces? Please visit “The Haven”, the premium villa project in Kottayam. </p>
                     </div>
                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-                        <a class="slider-button mt-40" href="#">Read More</a>
+                        <a class="slider-button mt-40" href="{{site.url}}/about">Read More</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <p class="slider-1-desc">Spacious family living room, exterior deck spaces, elegant & easy-to-maintain landscaping etc. can add a lot of utility to your new home. Please visit our site to take a look at “The Haven” Luxury Villas in Kottayam.</p>
                     </div>
                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-                        <a class="slider-button mt-40" href="#">Read More</a>
+                        <a class="slider-button mt-40" href="{{site.url}}/about">Read More</a>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <p class="slider-1-desc">What you see in this picture is real…and, the good news is, you can get your home look exactly like this with a much smaller budget than you think it would take. Premium design of interior spaces is what makes Altin Villas unique. Please visit “The Haven”, the premium villa project in Kottayam. </p>
                     </div>
                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-                        <a class="slider-button mt-40" href="#">Read More</a>
+                        <a class="slider-button mt-40" href="{{site.url}}/about">Read More</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <p class="slider-1-desc">Not many people buy more than one house in their life. That makes choosing your builder very important.  We recommend you visit our Altin Properties’ villa project in Kottayam, with no obligation to buy.</p>
                     </div>
                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-                        <a class="slider-button mt-40" href="#">Read More</a>
+                        <a class="slider-button mt-40" href="{{site.url}}/about">Read More</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <p class="slider-1-desc">People tend to focus on brand names and still miss out the best things they could get from the market. Don’t you think you should pay more attention to the build specification rather than the colourful ads by the builder? You will find answers to these queries when you visit the best villa project in Kottayam “The Haven”.</p>
                     </div>
                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-                        <a class="slider-button mt-40" href="#">Read More</a>
+                        <a class="slider-button mt-40" href="{{site.url}}/about">Read More</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <p class="slider-1-desc">Why settle for less when you have the opportunity to make your dream home look like this? It doesn’t cost you a fortune and you can still have posh interiors like this. Please speak to Interiors Team of Altin Properties and visit “The Haven”, the premium villa project in Kottayam.</p>
                     </div>
                     <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
-                        <a class="slider-button mt-40" href="#">Read More</a>
+                        <a class="slider-button mt-40" href="{{site.url}}/about">Read More</a>
                     </div>
                 </div>
             </div>
@@ -375,14 +375,17 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title-2 text-center">
-                            <h2>Featured 4BHK Villas</h2>
+                            <h2>Featured 5BHK & 4BHK Villas</h2>
                             <p>We have 4 floor plans to choose from, with built up area ranging from 2268 sq.ft. to 3370 sq.ft. 4BHK luxury villas have features like private Swimming Pool, Home Theater, Office / Study etc.</p>
                         </div>
                     </div>
                 </div>
                 <div class="featured-flat">
                     <div class="row">
-                        {% assign four-bhk = site.properties | where: 'bedrooms', '4' | sort: 'order' %} {% for item in four-bhk %}
+                        {% assign five-bhk = site.properties | where: 'bedrooms', '5' | sort: 'order' %}
+                        {% assign four-bhk = site.properties | where: 'bedrooms', '4' | sort: 'order' %}
+                        {% assign four-five-bhk = five-bhk | concat: four-bhk %}
+                        {% for item in four-five-bhk %}
                         <!-- flat-item -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="flat-item">
@@ -491,6 +494,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
             <div class="">
                 <div class="row">
                     <div class="col-md-5" style="padding-right: 0;">
+                        <a href="{{site.url}}/gallery" id="gallery-button">View Full Gallery</a>
                         <!-- Slider -->
                         <ul class="slides features">
                             <input type="radio" name="radio-btn" id="img-1" checked />

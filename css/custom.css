@@ -12,6 +12,28 @@ Note: This is the file where you can add your custom styles to change the look o
 /* ----------------------------------------------------
 	You can put your custom css code here: 
 -------------------------------------------------------*/
+#tst-arrow-left{
+    position: absolute;
+    z-index: 99;
+    bottom: 10%;
+    right: 15%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem;
+    background: seagreen;
+}
+#tst-arrow-right{
+    position: absolute;
+    z-index: 99;
+    right: 10%;
+    bottom: 10%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem;
+    background: seagreen;
+}
 .lb-data .lb-details{
 	display:none;
 }
@@ -92,7 +114,8 @@ Slider
     left: 5%;
     background: #000;
     color: #fff;
-    padding: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
 }
 .nav label {
     width: 200px;
