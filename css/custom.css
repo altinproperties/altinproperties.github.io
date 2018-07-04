@@ -12,6 +12,12 @@ Note: This is the file where you can add your custom styles to change the look o
 /* ----------------------------------------------------
 	You can put your custom css code here: 
 -------------------------------------------------------*/
+.disp-mobile{
+    display: none;
+}
+.disp-pc{
+    display: block;
+}
 #tst-arrow-left{
     position: absolute;
     z-index: 99;
@@ -245,6 +251,12 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: #95c41f;
 }
 @media (max-width: 991px){
+    .disp-mobile{
+        display: block;
+    }
+    .disp-pc{
+        display: none;
+    }
     .features-info.bg-gray{
         background: none;
     }
