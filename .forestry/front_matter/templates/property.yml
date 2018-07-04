@@ -58,15 +58,15 @@ fields:
   name: description
   label: Property Description
 pages:
-- _properties/villa-three.html
-- _properties/villa-five.html
-- _properties/villa-twelve.html
-- _properties/villa-ten.html
-- _properties/villa-seven.html
-- _properties/villa-four.html
-- _properties/villa-nine.html
-- _properties/villa-eleven.html
 - _properties/villa-one.html
 - _properties/villa-eight.html
-- _properties/villa-six.html
 - _properties/villa-two.html
+- _properties/villa-five.html
+- _properties/villa-six.html
+- _properties/villa-eleven.html
+- _properties/villa-nine.html
+- _properties/villa-four.html
+- _properties/villa-seven.html
+- _properties/villa-ten.html
+- _properties/villa-twelve.html
+- _properties/villa-three.html
