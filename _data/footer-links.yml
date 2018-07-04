@@ -1,13 +1,13 @@
 ---
 - title: Home
-  href: altinproperties.com
+  href: index
 - title: Blog
-  href: "#"
-- title: Blog
-  href: "#"
-- title: Blog
-  href: "#"
-- title: Blog
-  href: "#"
-- title: Blog
-  href: "#"
+  href: blog/index
+- title: Properties
+  href: properties
+- title: Gallery
+  href: gallery
+- title: Contact
+  href: contact
+- title: About
+  href: about
