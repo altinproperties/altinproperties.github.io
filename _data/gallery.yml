@@ -1,12 +1,17 @@
-- url: /images/slider/1.jpg
+---
+- url: ''
+  title: ''
+- url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.09 AM (1).jpeg"
+  title: Night view
+- url: "/images/slider/1.jpg"
   title: Kids Play Area
-- url: /images/slider/2.jpg
+- url: "/images/slider/2.jpg"
   title: Club House & Party Space
-- url: /images/slider/3.jpg
+- url: "/images/slider/3.jpg"
   title: Entrance
-- url: /images/slider/4.jpg
+- url: "/images/slider/4.jpg"
   title: Gym, Indoor Games & Swimming Pool
-- url: /images/slider/5.jpg
+- url: "/images/slider/5.jpg"
   title: Driveway & Guest Parking
-- url: /images/slider/6.jpg
+- url: "/images/slider/6.jpg"
   title: Tree Court
