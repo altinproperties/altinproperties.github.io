@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.altinproperties.com/</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/about.html</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties.html</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-one</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-two</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-three</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-four</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-five</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-six</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-seven</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-eight</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-nine</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-ten</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-eleven</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties/villa-twelve</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/gallery.html</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://www.altinproperties.com/contact.html</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/blog/</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/about</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/gallery</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/blog/importance-of-eco-friendly-villas</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/blog/advantages-of-owning-a-villa-over-a-flat-or-apartment</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/blog/top-10-reasons-to-buy-a-brand-new-home</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/blog/the-haven-peace-of-mind-for-the-home-owner</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/blog/house-construction-in-kerala-tips-to-reduce-costs</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/properties</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.altinproperties.com/contact</loc>
+  <lastmod>2018-10-20T10:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
