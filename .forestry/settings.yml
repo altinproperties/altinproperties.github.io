@@ -5,9 +5,12 @@ admin_path: login
 webhook_url: 
 sections:
 - type: document
+  path: _includes/userscripts.html
+  label: Scripts
+  match: "**/*"
+- type: document
   path: _data/testimonials.yml
   label: Testimonials
-  match: "**/*"
 - type: document
   path: _data/gallery.yml
   label: Gallery
