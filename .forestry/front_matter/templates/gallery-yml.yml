@@ -1,0 +1,21 @@
+---
+label: gallery.yml
+hide_body: 
+is_partial: 
+fields:
+- name: Gallery
+  label: Gallery
+  type: field_group_list
+  fields:
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
