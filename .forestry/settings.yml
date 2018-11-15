@@ -4,16 +4,6 @@ auto_deploy: false
 admin_path: login
 webhook_url: 
 sections:
-- type: document
-  path: _includes/userscripts.html
-  label: Scripts
-  match: "**/*"
-- type: document
-  path: _data/testimonials.yml
-  label: Testimonials
-- type: document
-  path: _data/gallery.yml
-  label: Gallery
 - type: jekyll-posts
   label: Posts
   create: all
@@ -22,9 +12,18 @@ sections:
   label: Properties
   create: all
   match: "**/*"
+- type: document
+  path: _data/testimonials.yml
+  label: Testimonials
+- type: document
+  path: _data/gallery.yml
+  label: Gallery
 - type: jekyll-pages
   label: Pages
   create: all
+- type: document
+  path: _includes/userscripts.html
+  label: Scripts
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
