@@ -4,10 +4,9 @@ auto_deploy: false
 admin_path: login
 webhook_url: 
 sections:
-- type: directory
-  path: _data
-  label: More
-  create: all
+- type: document
+  path: _data/gallery.yml
+  label: Gallery
   match: "**/*"
 - type: jekyll-posts
   label: Posts
