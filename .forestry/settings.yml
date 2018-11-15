@@ -5,6 +5,10 @@ admin_path: login
 webhook_url: 
 sections:
 - type: document
+  path: _data/testimonials.yml
+  label: Testimonials
+  match: "**/*"
+- type: document
   path: _data/gallery.yml
   label: Gallery
 - type: jekyll-posts
