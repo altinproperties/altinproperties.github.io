@@ -3,16 +3,13 @@ label: Gallery
 hide_body: true
 is_partial: false
 fields:
-- type: file
-  label: Image
-  name: url
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
 - type: field_group
   fields:
   - type: file
     label: Image
     name: url
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
