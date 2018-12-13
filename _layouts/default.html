@@ -39,8 +39,11 @@
     <script src="{{site.url}}/js/vendor/modernizr-2.8.3.min.js"></script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
 
-
+{% if page.url == '/' %}
+{% include userscriptshp.html %}
+{% else %}
 {% include userscripts.html %}
+{% endif %}
 </head>
 
 <body>
