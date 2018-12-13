@@ -3,6 +3,9 @@ label: property
 hide_body: true
 is_partial: false
 fields:
+- type: boolean
+  label: For Sale
+  name: forsale
 - type: text
   name: layout
   label: Layout
@@ -58,9 +61,6 @@ fields:
 - type: textarea
   name: description
   label: Property Description
-- type: boolean
-  label: For Sale
-  name: forsale
 pages:
 - _properties/villa-one.html
 - _properties/villa-eight.html
