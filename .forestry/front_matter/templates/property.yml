@@ -58,6 +58,9 @@ fields:
 - type: textarea
   name: description
   label: Property Description
+- type: boolean
+  label: For Sale
+  name: forsale
 pages:
 - _properties/villa-one.html
 - _properties/villa-eight.html
