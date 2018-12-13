@@ -44,6 +44,11 @@
 {% else %}
 {% include userscripts.html %}
 {% endif %}
+{% if page.url == '/gallery' %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.js"></script>
+{% endif %}
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -51,7 +56,6 @@
     <![endif]-->  
 
 {% include nav.html %}
-    {% if page.url == '/gallery' %}<h1>Page Gallery</h1>{% endif %}
 
 {{content}}
 
