@@ -51,6 +51,7 @@
     <![endif]-->  
 
 {% include nav.html %}
+    {% if page.url == '/gallery' %}<h1>Page Gallery</h1>{% endif %}
 
 {{content}}
 
@@ -88,7 +89,7 @@ s0.parentNode.insertBefore(s1,s0);
     <script src="{{site.url}}/js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    {% unless page.url  == '/gallery.html' %}<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>{% endunless %}
+    {% unless page.url  == '/gallery' %}<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>{% endunless %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.js"></script>
 </body>
 
