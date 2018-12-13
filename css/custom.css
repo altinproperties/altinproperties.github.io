@@ -21,6 +21,7 @@ Note: This is the file where you can add your custom styles to change the look o
 .gallery-flex {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 
 }
 
@@ -39,6 +40,7 @@ Note: This is the file where you can add your custom styles to change the look o
 	height: 100%;
 	object-fit: cover;
 	transition: transform 400ms ease-out;
+	height: 180px;
 }
 
 .gallery-image:hover {
