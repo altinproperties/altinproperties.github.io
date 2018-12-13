@@ -1,5 +1,5 @@
 ---
-label: userscripts.html
-hide_body: 
-is_partial: 
+label: scripts
+hide_body: false
+is_partial: false
 fields: []
