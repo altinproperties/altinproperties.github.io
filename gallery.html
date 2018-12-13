@@ -4,7 +4,9 @@ title: Gallery | Altin Properties
 
 ---
 {% for item in site.data.gallery %}
-  <a data-fancybox="gallery" href="{{site.url}}{{item.url}}"></a>
+  <a href="{{site.url}}{{item.url}}" data-fancybox="gallery" data-caption="{{item.title}}">
+	<img src="{{site.url}}{{item.url}}" alt="" />
+</a>
 {% endfor %}
 
 <!-- <div class="container main-gallery">
