@@ -3,23 +3,11 @@ layout: default
 title: Gallery | Altin Properties
 
 ---
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+{% for item in site.data.gallery %}
+  <a data-fancybox="gallery" href="{{site.url}}{{item.url}}"></a>
+{% endfor %}
 
-<!--####
-### How to add in your boostrap project
-1) Add jQuery "<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>"
-2) Download fancybox (https://github.com/fancyapps/fancyBox)
-3) Or use CDN (http://cdnjs.com/libraries/fancybox)
-####--!>
-
-<!-- References: https://github.com/fancyapps/fancyBox -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-
-<div class="container main-gallery">
+<!-- <div class="container main-gallery">
 	<div class="row">
 		<div class='list-group gallery'>
             {% for item in site.data.gallery %}
@@ -28,15 +16,15 @@ title: Gallery | Altin Properties
                     <img class="img-responsive" alt="" src="{{site.url}}{{item.url}}" />
                     <div class='text-right'>
                         <small class='text-muted'>{{item.title}}</small>
-                    </div> <!-- text-right / end -->
+                    </div> 
                 </a>
-            </div> <!-- col-6 / end -->
+            </div>
             {% endfor %}
-        </div> <!-- list-group / end -->
-	</div> <!-- row / end -->
-</div> <!-- container / end -->
+        </div>
+	</div>
+</div> <!-- container / end --> -->
 
-<script>
+<!-- <script>
     $(document).ready(function(){
     //FANCYBOX
     //https://github.com/fancyapps/fancyBox
@@ -47,4 +35,4 @@ title: Gallery | Altin Properties
 });
    
   
-</script>
+</script> -->
