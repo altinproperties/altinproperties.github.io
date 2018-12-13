@@ -309,7 +309,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                                         <a href="service-details.html"><img src="images/service/1.jpg" alt=""></a>
                                     </div>
                                     <div class="service-item-info">
-                                        <h5><a href="service-details.html">Sale Property</a></h5>
+                                        {% if page.forsale %}<h5><a href="service-details.html">Sale Property</a></h5>{% endif %}
                                         <p>Property sale best theme for litdo eiusmod tempor dolor sit amet, conse tetur adiping eiusmo</p>
                                     </div>
                                 </div>
@@ -391,7 +391,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="flat-item">
                                 <div class="flat-item-image">
-                                    <span class="for-sale">For Sale</span>
+                                    {% if item.forsale %}<span class="for-sale">For Sale</span>{% endif %}
                                     <a href="{{item.url}}">
                                         <img src="{{site.url}}{{item.main-image}}" alt="">
                                     </a>
@@ -449,7 +449,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="flat-item">
                                 <div class="flat-item-image">
-                                    <span class="for-sale">For Sale</span>
+                                    {% if item.forsale %}<span class="for-sale">For Sale</span>{% endif %}
                                     <a href="{{item.url}}">
                                         <img src="{{site.url}}{{item.main-image}}" alt="">
                                     </a>
