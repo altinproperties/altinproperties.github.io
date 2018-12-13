@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Gallery | Altin Properties
-
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.css" />
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.js"></script>
+
 
 {% for item in site.data.gallery %}
   <a href="{{site.url}}{{item.url}}" data-fancybox="gallery" data-caption="{{item.title}}">
@@ -27,7 +25,7 @@ title: Gallery | Altin Properties
             {% endfor %}
         </div>
 	</div>
-</div> <!-- container / end --> -->
+</div> <!-- container / end -->
 
 <!-- <script>
     $(document).ready(function(){
