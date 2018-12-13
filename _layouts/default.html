@@ -41,6 +41,10 @@
 
 {% if page.url == '/' %}
 {% include userscriptshp.html %}
+{% elseif page.url == '/gallery.html' %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.5/dist/jquery.fancybox.min.js"></script>
+{% include userscripts.html %}
 {% else %}
 {% include userscripts.html %}
 {% endif %}
