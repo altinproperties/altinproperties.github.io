@@ -3,9 +3,9 @@ layout: default
 title: Gallery | Altin Properties
 ---
 <div class="container">
-    <div class="row">
+    <div class="gallery-row-flex">
     {% for item in site.data.gallery %}
-        <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+        <div class='gallery-item'>
             <a href="{{site.url}}{{item.url}}" data-fancybox="images" data-caption="{{item.title}}">
 	        <img src="{{site.url}}{{item.url}}" alt="" /></a>
 	</div>
