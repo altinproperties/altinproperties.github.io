@@ -307,6 +307,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: #95c41f;
 }
 @media (max-width: 991px){
+    .gallery-item{
+	flex: 0 0 100%;
+    }
     .disp-mobile{
         display: block;
     }
