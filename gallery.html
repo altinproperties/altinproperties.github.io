@@ -5,16 +5,16 @@ title: Gallery | Altin Properties
 
 <div class="gallery-container">
 <div class="gallery-flex">
-<h3>Gallery</h3>
-{% for item in site.data.gallery | where "type","gallery" %}
+<h3 class="gallery-heading">Gallery</h3>
+{% for item in site.data.gallery | where: "type","gallery" %}
 		
 		<div class="gallery-item">
 			 <a href="{{site.url}}{{item.url}}" data-fancybox="images" data-caption="{{item.title}}">
 	        <img class="gallery-image" src="{{site.url}}{{item.url}}" alt="" /></a>
 		</div>
 {% endfor %}
-<h3>Amenties</h3>
-{% for item in site.data.gallery | where "type","facilities" %}
+<h3 class="gallery-heading">Amenties</h3>
+{% for item in site.data.gallery | where: "type","facilities" %}
 		
 		<div class="gallery-item">
 			 <a href="{{site.url}}{{item.url}}" data-fancybox="images" data-caption="{{item.title}}">
