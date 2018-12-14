@@ -315,6 +315,9 @@
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+.for-sale.sold-out{
+  background: #f44336 none repeat scroll 0 0;
+}
 .for-sale.rent {
     background: #343650 none repeat scroll 0 0;
 }
