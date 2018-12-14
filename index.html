@@ -391,7 +391,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="flat-item">
                                 <div class="flat-item-image">
-                                    {% if item.forsale %}<span class="for-sale">For Sale</span>{% endif %}
+                                    {% if item.forsale %}<span class="for-sale">For Sale</span>{% else %}<span class="for-sale sold-out">Sold Out</span>{% endif %}
                                     <a href="{{item.url}}">
                                         <img src="{{site.url}}{{item.main-image}}" alt="">
                                     </a>
@@ -449,7 +449,7 @@ keywords: 'Villas in kottayam, Luxury villas in kottayam, Low cost villas in kot
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="flat-item">
                                 <div class="flat-item-image">
-                                    {% if item.forsale %}<span class="for-sale">For Sale</span>{% endif %}
+                                    {% if item.forsale %}<span class="for-sale">For Sale</span>{% else %}<span class="for-sale sold-out">Sold Out</span>{% endif %}
                                     <a href="{{item.url}}">
                                         <img src="{{site.url}}{{item.main-image}}" alt="">
                                     </a>
