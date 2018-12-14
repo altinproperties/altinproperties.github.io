@@ -24,7 +24,12 @@ Note: This is the file where you can add your custom styles to change the look o
 	justify-content: center;
 
 }
-
+.gallery-heading{
+	flex: 1 1 100%;
+	text-align: center;
+	margin: 1rem 0;
+	text-transform: uppercase;
+}
 .gallery-item {
 	/* Minimum width of 24rem and grow to fit available space */
 	flex: 0 0 20%;
