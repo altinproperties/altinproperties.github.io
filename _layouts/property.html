@@ -114,7 +114,7 @@ layout: default
                             <div class="col-md-12 col-sm-6 col-xs-12">
                                 <div class="flat-item">
                                     <div class="flat-item-image">
-                                        {% if item.forsale %}<span class="for-sale">For Sale</span>{% endif %}
+                                        {% if item.forsale %}<span class="for-sale">For Sale</span>{% else %}<span class="for-sale sold-out">Sold Out</span>{% endif %}
                                         <a href="{{item.url}}">
                                             <img src="{{site.url}}{{item.main-image}}" alt="">
                                         </a>
