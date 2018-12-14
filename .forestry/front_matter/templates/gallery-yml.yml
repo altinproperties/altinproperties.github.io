@@ -15,6 +15,13 @@ fields:
     type: text
     hidden: false
     default: ''
+  - type: text
+    name: type
+    label: Type
+    hidden: true
+    config:
+      required: true
+    default: gallery
   hidden: false
   default: ''
 pages:
