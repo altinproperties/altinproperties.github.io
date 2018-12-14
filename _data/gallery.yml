@@ -1,41 +1,61 @@
 ---
 - url: "/uploads/2018/12/12/MG_7230.JPG"
   title: night view
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.16 AM (1).jpeg"
   title: 11
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.15 AM.jpeg"
   title: 10
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.15 AM (1).jpeg"
   title: 9
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.14 AM.jpeg"
   title: 8
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.14 AM (1).jpeg"
   title: 7
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.13 AM (1).jpeg"
   title: 6
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.12 AM.jpeg"
   title: 5
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.12 AM (1).jpeg"
   title: 4
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.11 AM.jpeg"
   title: 3
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.10 AM.jpeg"
   title: 2
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.10 AM (1).jpeg"
   title: 1
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.09 AM.jpeg"
   title: Night view 2
+  type: gallery
 - url: "/uploads/2018/08/24/WhatsApp Image 2018-08-14 at 9.23.09 AM (1).jpeg"
   title: Night view
+  type: gallery
 - url: "/images/slider/1.jpg"
   title: Kids Play Area
+  type: facilities
 - url: "/images/slider/2.jpg"
   title: Club House & Party Space
+  type: facilities
 - url: "/images/slider/3.jpg"
   title: Entrance
+  type: facilities
 - url: "/images/slider/4.jpg"
   title: Gym, Indoor Games & Swimming Pool
+  type: facilities
 - url: "/images/slider/5.jpg"
   title: Driveway & Guest Parking
+  type: facilities
 - url: "/images/slider/6.jpg"
   title: Tree Court
+  type: facilities
