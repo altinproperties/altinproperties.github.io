@@ -1,4 +1,15 @@
 ---
+- title: ''
+  type: gallery
+- url: "/uploads/2019/01/04/THE HAVEN  (12).jpg"
+  title: The haven view 12
+  type: gallery
+- title: The haven view 11
+  type: gallery
+  url: "/uploads/2019/01/04/THE HAVEN  (11).jpg"
+- url: "/uploads/2019/01/04/THE HAVEN  (10).jpg"
+  title: The haven view 10
+  type: gallery
 - title: The haven view 9
   type: gallery
   url: "/uploads/2019/01/04/THE HAVEN  (9).jpg"
